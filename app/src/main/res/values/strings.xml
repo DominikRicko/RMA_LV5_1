@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RMA_LV5_1</string>
+    <string name="horse">horse</string>
+    <string name="cat">cat</string>
+    <string name="dog">dog</string>
+    <string name="bird">Bird</string>
 </resources>
