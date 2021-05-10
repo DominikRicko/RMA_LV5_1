@@ -71,7 +71,10 @@
         app:layout_constraintEnd_toEndOf="@id/guide_middle_start"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:contentDescription="@string/horse"/>
+        app:layout_constraintDimensionRatio="1:1"
+        android:contentDescription="@string/horse"
+        android:background="@drawable/horse"
+        />
 
     <ImageView
         android:id="@+id/iv_cat"
@@ -81,7 +84,9 @@
         app:layout_constraintEnd_toEndOf="@id/guide_end"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:contentDescription="@string/cat" />
+        app:layout_constraintDimensionRatio="1:1"
+        android:contentDescription="@string/cat"
+        android:background="@drawable/cat"/>
 
     <ImageView
         android:id="@+id/iv_dog"
@@ -91,7 +96,9 @@
         app:layout_constraintEnd_toEndOf="@id/guide_middle_start"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:contentDescription="@string/dog" />
+        app:layout_constraintDimensionRatio="1:1"
+        android:contentDescription="@string/dog"
+        android:background="@drawable/dog"/>
 
     <ImageView
         android:id="@+id/iv_bird"
@@ -101,6 +108,8 @@
         app:layout_constraintEnd_toEndOf="@id/guide_end"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:contentDescription="@string/bird" />
+        app:layout_constraintDimensionRatio="1:1"
+        android:contentDescription="@string/bird"
+        android:background="@drawable/bird"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
