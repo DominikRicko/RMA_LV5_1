@@ -5,7 +5,7 @@ import android.media.SoundPool
 import hr.dominikricko.rma_lv5_1.ApplicationContext
 import hr.dominikricko.rma_lv5_1.R
 
-class Sounds {
+object Sounds {
 
     private val soundpool : SoundPool
 
