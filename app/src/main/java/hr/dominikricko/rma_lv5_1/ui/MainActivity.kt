@@ -8,16 +8,17 @@ import hr.dominikricko.rma_lv5_1.service.Sounds
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
+    private val sounds = Sounds()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
 
-        binding.ivBird.setOnClickListener{ Sounds.playBirdSound()}
-        binding.ivCat.setOnClickListener{ Sounds.playCatSound()}
-        binding.ivDog.setOnClickListener{ Sounds.playDogSound()}
-        binding.ivHorse.setOnClickListener { Sounds.playHorseSound() }
+        binding.ivBird.setOnClickListener{ sounds.playBirdSound()}
+        binding.ivCat.setOnClickListener{ sounds.playCatSound()}
+        binding.ivDog.setOnClickListener{ sounds.playDogSound()}
+        binding.ivHorse.setOnClickListener { sounds.playHorseSound() }
 
         setContentView(binding.root)
     }
